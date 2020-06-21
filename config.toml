@@ -1,0 +1,4 @@
+baseURL = "https://eduardoquiros.xyz"
+languageCode = "es-cr"
+title = "Publicaciones de Eduardo Quiros"
+theme = "ananke"
