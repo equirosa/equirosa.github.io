@@ -1,4 +1,4 @@
 baseURL = "https://eduardoquiros.xyz"
-languageCode = "es-cr"
 title = "Publicaciones de Eduardo Quiros"
+languageCode = "en-US"
 theme = "ananke"
