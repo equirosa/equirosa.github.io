@@ -1,4 +1,82 @@
-baseURL = "https://eduardoquiros.xyz"
-languageCode = "en-US"
-title = "Eduardo's Notes"
-theme = "ananke"
+baseurl = "https://eduardoquiros.xyz"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 10
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+	author = "Eduardo Quiros"
+	languageseparator = "|"
+
+	itemscentered = true
+	avatarurl = "/images/avatar.jpg"
+
+	[[params.social]]
+	name = "Github"
+	icon = "fab fa-github"
+	weight = 1
+	url = "https://github.com/equirosa"
+
+	[[params.social]]
+	name = "LinkedIn"
+	icon = "fab fa-linkedin"
+	weight = 2
+	url = "https://www.linkedin.com/in/eduardo-quirós-79b5351a8"
+
+	[[params.social]]
+	name = "Fediverse"
+	icon = "fab fa-mastodon"
+	weight = 3
+	url = "https://fosstodon.org/@kiri"
+
+[languages]
+	[languages.en]
+		languagecode = "en"
+		languagename = "English"
+		title = "Eduardo's Notes"
+
+		[languages.en.params]
+			info = "Software Engineer"
+			description = "Eduardo Quiros's Personal Website"
+			keywords = "blog,developer,personal,software"
+		[languages.en.menu]
+			[[languages.en.menu.main]]
+				name = "About"
+				weight = 1.0
+				url = "/about/"
+			[[languages.en.menu.main]]
+				name = "Blog"
+				weight = 2.0
+				url = "/posts/"
+			[[languages.en.menu.main]]
+				name = "Projects"
+				weight = 3.0
+				url = "/projects/"
+
+	[languages.es]
+		languagecode = "es"
+		languagename = "Spanish"
+		title = "Notas de Eduardo"
+		[languages.es.params]
+			info = "Ingeniero en Software"
+			description = "Sitio Web Personal de Eduardo Quiros"
+			keywords = "blog,developer,desarrollador,personal,software"
+
+		[languages.es.menu]
+			[[languages.es.menu.main]]
+				name = "Sobre mi"
+				weight = 1.0
+				url = "/es/about/"
+			[[languages.es.menu.main]]
+				name = "Blog"
+				weight = 2.0
+				url = "/es/posts/"
+			[[languages.es.menu.main]]
+				name = "Proyectos"
+				weight = 3.0
+				url = "/es/projects/"
