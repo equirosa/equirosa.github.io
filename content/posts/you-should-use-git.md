@@ -13,11 +13,10 @@ However, most projects at my university often last between 3 an 15 weeks. Would 
 Every single one?
 
 This is where a CVS comes in, long gone are the days of needing a folder containing (I'm using Java as an example language because that's what my university uses as an introductory language)
-'''
-project.java
-project1.java
-project.java
-'''
+
+	project.java
+	project1.java
+	project2.java
 
 littered all over your project directory.
 Git handles this versioning by storing the changes you've progressively made to your files via "commits". These are atomic "bundles" of changes you decide to make permanent on your project. This way, Git slowly builds up a history of all the changes you've made ever since the first commit.
