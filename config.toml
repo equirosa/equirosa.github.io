@@ -44,6 +44,7 @@ pygmentscodefencesguesssyntax = true
 			info = "Software Engineer"
 			description = "Eduardo Quiros's Personal Website"
 			keywords = "blog,developer,personal,software"
+			footercontent = "The contents of the blog are released under the CC-BY-SA 4.0 license"
 		[languages.en.menu]
 			[[languages.en.menu.main]]
 				name = "About"
@@ -66,6 +67,7 @@ pygmentscodefencesguesssyntax = true
 			info = "Ingeniero en Software"
 			description = "Sitio Web Personal de Eduardo Quiros"
 			keywords = "blog,developer,desarrollador,personal,software"
+			footercontent = "Los contenidos del blog son presentados bajo la licencia CC-BY-SA 4.0"
 
 		[languages.es.menu]
 			[[languages.es.menu.main]]
