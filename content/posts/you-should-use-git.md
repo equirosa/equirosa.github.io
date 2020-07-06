@@ -6,7 +6,7 @@ draft: false
 I've noticed that, at the university I go to, many of my peers often have trouble learning to use git (or any form of VCS, really) and, therefore, opt to simply not use it at all.
 I believe this is a mistake, by not using any sort of version control you subject yourself to a whole host of difficulties and challenges if you simply let your lack of comfort with such a tool get to you.
 
-# Managing File Versions
+## Managing File Versions
 This one seems like the obvious argument to make for a tool with "version control" in its name, but I've noticed that people who don't use a VCS often try to make up for this lack of control by having **multiple copies of the same file**.
 This isn't particularly wrong per se, and it initially seems to be a clever workaround.
 However, most projects at my university often last between 3 an 15 weeks. Would you honestly trust yourself to handle multiple versions of various projects effectively?
@@ -21,10 +21,10 @@ This is where a CVS comes in, long gone are the days of needing a folder contain
 littered all over your project directory.
 Git handles this versioning by storing the changes you've progressively made to your files via "commits". These are atomic "bundles" of changes you decide to make permanent on your project. This way, Git slowly builds up a history of all the changes you've made ever since the first commit.
 
-## Rolling back
+### Rolling back
 The main reason I've seen stated for multiple versions of a file is the desire for being able to roll back any changes you've made to a file. Git also handle's this very well, you simply have to look at your project history, pick a commit you want to roll back to, issue the command and **boom**, you've gone back in time!
 
-# Backups / Multiple Copies
+## Backups / Multiple Copies
 Another of the main draws of a CVS is the ability to store remote backups in case of a catastrophic event.
 Several times some of my colleagues have told stories about how a disgruntled former teammate decided to wipe out a project repository or about how they unintentionally deleted the project repo from their own machine.
 
@@ -40,7 +40,7 @@ Conversely, if anything catastrophic happened to my remote repo (or repos, Git a
 
 **NOTE:** Remember that if you don't regularly push your changes to your remote repo then there's nothing Git and other CVSs can do to save you.
 
-# Conclusion
+## Conclusion
 Git is capable of many more things than what I mentioned here, but the benefits I listed are what would've saved many projects ~90% of the time.
 Being honest, you're simply depriving yourself from proper project management if you opt to not use a CVS.
 It might not be the easiest tool to learn, but it'll be the one tool you want most whenever something goes wrong with your project.
