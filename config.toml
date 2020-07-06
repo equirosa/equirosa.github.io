@@ -19,21 +19,27 @@ pygmentscodefencesguesssyntax = true
 	favicon_32 = "/images/favicon-32x32.png"
 
 	[[params.social]]
+	name = "Sourcehut"
+	icon = "fab fa-git-alt"
+	weight = 1
+	url = "https://git.sr.ht/~eduardo_quiros"
+
+	[[params.social]]
 	name = "Github"
 	icon = "fab fa-github"
-	weight = 1
+	weight = 3
 	url = "https://github.com/equirosa"
 
 	[[params.social]]
 	name = "LinkedIn"
 	icon = "fab fa-linkedin"
-	weight = 2
+	weight = 4
 	url = "https://www.linkedin.com/in/eduardo-quirós-79b5351a8"
 
 	[[params.social]]
 	name = "Fediverse"
 	icon = "fab fa-mastodon"
-	weight = 3
+	weight = 2
 	url = "https://fosstodon.org/@kiri"
 
 [languages]
