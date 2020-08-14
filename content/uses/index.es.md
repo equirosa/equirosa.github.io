@@ -11,7 +11,7 @@ Más que todo para poder mantener una lista sin usar papel.
 ### Snowfort
 - **CPU:** Ryzen 5 3600X
 - **GPU:** ASROCK Radeon 5500XT 4GB CHALLENGER
-- **Power Supply:** 650W AZZA 80+ Bronze
+- **Fuente de Poder:** 650W AZZA 80+ Bronze
 - **Case:** AZZA Crimson 211G
 - **RAM:** DDR4 8GB 3000MHz XPG Hunter x2
 - **SSD:** 2.5" Patriot Burst 240GB
