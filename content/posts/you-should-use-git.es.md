@@ -48,7 +48,7 @@ entonces no hay nada que Git pueda hacer para salvarte.
 Git es capaz de muchas más cosas de las que mencioné aquí,
 pero los beneficios que listé habrían salvado muchos proyectos en el 90% de los casos.
 Siendo honesto, simplemente te estás privando de un manejo apropiado de proyectos
-si decides no usar un CVS.
+si decides no usar un VCS.
 Puede que no sea la herramienta más sencilla de aprender, pero será la herramienta
 que más desees tener cuando algo vaya mal con tu proyecto.
 Si eres un estudiante en algo que tenga que ver con manejar archivos en texto plano
