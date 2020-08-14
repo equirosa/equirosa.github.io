@@ -33,7 +33,7 @@ By allowing for remote repositories, a CVS makes it easy to store remotely all o
 All you need to do is use a remote server such as [Codeberg](https://codeberg.org) or [Sourcehut](https://sr.ht).
 These will take care of storing your remote repo safely.
 
-Having this system in place, you can back up your commits by simply running '''git push''', and git will handle the job of moving the changes you've made in your local repo over to your remote repo. If you want to download the changes you've (or someone else has) made, you simply run '''git pull'''.
+Having this system in place, you can back up your commits by simply running `git push`, and git will handle the job of moving the changes you've made in your local repo over to your remote repo. If you want to download the changes you've (or someone else has) made, you simply run `git pull`.
 
 And so, if something happens to my local repo, the remote one will still be intact. The only commits lost would be the ones I hadn't pushed at the time of loss.
 Conversely, if anything catastrophic happened to my remote repo (or repos, Git allows for multiple remotes and such), then the only commits that I'd lose would be those that I hadn't pulled from there yet.
