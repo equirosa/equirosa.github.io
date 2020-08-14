@@ -17,3 +17,4 @@ Más que todo para poder mantener una lista sin usar papel.
 - **SSD:** 2.5" Patriot Burst 240GB
 - **HDD:** Seagate Barracuda 1TB 7200rpm
 - **Monitor:** 24' ASUS LED VP249QGR/144Hz/1ms/1920x1080 HDMI/VGA/DP
+- **Sistema Operativo:** [NixOS](https://nixos.org)
