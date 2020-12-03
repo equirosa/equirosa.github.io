@@ -1,0 +1,77 @@
+baseURL: "https://eduardoquiros.xyz"
+title: Eduardo's Notes
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Eduardo's Notes
+  description: "Just blog, really..."
+  author: Eduardo
+
+  images: "./content/images"
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  comments: false
+  defaultTheme: dark
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+  assets:
+    favicon: "./content/images/avatar.jpg"
+    favicon16x16: "./content/images/favicon-16x16.png"
+    favicon32x32: "./content/images/favicon-32x32.png"
+    apple_touch_icon: "./content/images/favicon-16x16.png"
+    safari_pinned_tab: "./content/images/favicon-16x16.png"
+
+  label:
+    text: "Home"
+    icon: "./content/images/avatar.jpg"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Eduardo Quirós
+    # imageUrl: '<img location>'
+    # imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/equirosa"
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
