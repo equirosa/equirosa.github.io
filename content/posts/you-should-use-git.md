@@ -4,7 +4,7 @@ date: 2020-06-30T10:40:52-06:00
 draft: false
 ---
 
-# You Should Use Git
+## The Problem
 
 I've noticed that, at the university I go to, many of my peers often have trouble
 learning to use git (or any form of VCS, really) and, therefore, opt to simply

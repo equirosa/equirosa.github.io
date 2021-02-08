@@ -1,3 +1,3 @@
 #!/bin/sh
 
-hugo server --watch --verbose --cleanDestinationDir --disableFastRender
+hugo server --watch --verbose --cleanDestinationDir --disableFastRender --buildDrafts
