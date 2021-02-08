@@ -1,100 +1,51 @@
-baseurl = "https://eduardoquiros.xyz"
-theme = "hugo-coder"
-defaultcontentlanguage = "en"
+baseURL = "https://eduardoquiros.xyz"
+title = "Eduardo's Notes"
+languageCode = "en-us"
+theme = "devise"
+relativeURLs = true
+enableEmoji = true
+googleAnalytics = ""
+enableRobotsTXT = true
+copyright = "&copy; 2021, Eduardo Quirós"
 
-paginate = 10
+# Main menu items
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/post/"
+    weight = -100
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    title = "Categories"
+    url = "/categories/"
+    weight = -90
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-
+# Configuration Features
 [params]
-	author = "Eduardo Quiros"
-	languageseparator = "|"
-
-	itemscentered = true
-	avatarurl = "/images/avatar.jpg"
-	favicon_16 = "/images/favicon-16x16.png"
-	favicon_32 = "/images/favicon-32x32.png"
-
-	[[params.social]]
-	name = "Sourcehut"
-	icon = "fab fa-git-alt"
-	weight = 1
-	url = "https://git.sr.ht/~eduardo_quiros"
-
-	[[params.social]]
-	name = "Github"
-	icon = "fab fa-github"
-	weight = 3
-	url = "https://github.com/equirosa"
-
-	[[params.social]]
-	name = "LinkedIn"
-	icon = "fab fa-linkedin"
-	weight = 4
-	url = "https://www.linkedin.com/in/eduardo-quirós-79b5351a8"
-
-	[[params.social]]
-	name = "Fediverse"
-	icon = "fab fa-mastodon"
-	weight = 2
-	url = "https://fosstodon.org/@kiri"
-
-[languages]
-	[languages.en]
-		languagecode = "en"
-		languagename = "English"
-		title = "Eduardo's Notes"
-
-		[languages.en.params]
-			info = "Software Engineer"
-			description = "Eduardo Quiros's Personal Website"
-			keywords = "blog,developer,personal,software"
-			footercontent = "The contents of the blog are released under the CC-BY-SA 4.0 license"
-		[languages.en.menu]
-			[[languages.en.menu.main]]
-				name = "About"
-				weight = 1.0
-				url = "/about/"
-			[[languages.en.menu.main]]
-				name = "Blog"
-				weight = 2.0
-				url = "/posts/"
-			[[languages.en.menu.main]]
-				name = "Projects"
-				weight = 3.0
-				url = "/projects/"
-			[[languages.en.menu.main]]
-				name = "Uses"
-				weight = 4.0
-				url = "/uses/"
-
-	[languages.es]
-		languagecode = "es"
-		languagename = "Spanish"
-		title = "Notas de Eduardo"
-		[languages.es.params]
-			info = "Ingeniero en Software"
-			description = "Sitio Web Personal de Eduardo Quiros"
-			keywords = "blog,developer,desarrollador,personal,software"
-			footercontent = "Los contenidos del blog son presentados bajo la licencia CC-BY-SA 4.0"
-
-		[languages.es.menu]
-			[[languages.es.menu.main]]
-				name = "Sobre mi"
-				weight = 1.0
-				url = "/es/about/"
-			[[languages.es.menu.main]]
-				name = "Blog"
-				weight = 2.0
-				url = "/es/posts/"
-			[[languages.es.menu.main]]
-				name = "Proyectos"
-				weight = 3.0
-				url = "/es/projects/"
-			[[languages.es.menu.main]]
-				name = "Usa"
-				weight = 4.0
-				url = "/es/uses/"
+  description = "Your meta description"      # Your meta description of the site
+  header_title = "Eduardo Quirós"                 # Your header title
+  header_subtitle = "Your Creative Subtitle" # Your header subtitle
+  home_image = "/images/avatar.png"          # Path to header image starting from the static directory
+  recent_posts = 5                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "http://github.com/equirosa"      # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-1x"
+    href = ""
+  [[params.social]]
+    fa_icon = "fas fa-at fa-1x"
+    href = ""
