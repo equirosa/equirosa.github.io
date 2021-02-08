@@ -28,6 +28,12 @@ copyright = "&copy; 2021, Eduardo Quirós"
     title = "Categories"
     url = "/categories/"
     weight = -90
+  [[menu.main]]
+  identifier = "uses"
+  name = "Uses"
+  title = "Uses"
+  url = "/uses/"
+  weight = -80
 
 # Configuration Features
 [params]
