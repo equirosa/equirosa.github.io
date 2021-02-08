@@ -43,7 +43,7 @@ count writing `01010010` together as a step.)
 
 Whereas converting it to decimal would entail multiplying `5` by `16` and then
 adding `2` to that, and **then** dividing `84` (the result of the previous
-conversion) by `2` over and over again until the residue is either `1` or `0`,
+conversion) by `2` over and over again until the remainder is either `1` or `0`,
 that's **six** divisions you have to carry out in order to convert a decimal
 number of **two figures**.
 Which then nets you `0101 0010`, which is the exact same result we reached
