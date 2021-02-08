@@ -39,7 +39,7 @@ copyright = "&copy; 2021, Eduardo Quirós"
 [params]
   description = "Your meta description"      # Your meta description of the site
   header_title = "Eduardo Quirós"                 # Your header title
-  header_subtitle = "Your Creative Subtitle" # Your header subtitle
+  header_subtitle = "Software Engineer and All-around Geek" # Your header subtitle
   home_image = "/images/avatar.png"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
