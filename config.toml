@@ -37,7 +37,7 @@ copyright = "&copy; 2021, Eduardo Quirós"
 
 # Configuration Features
 [params]
-  description = "Your meta description"      # Your meta description of the site
+  description = "Eduardo's Notes and Ramblings"
   header_title = "Eduardo Quirós"                 # Your header title
   header_subtitle = "Software Engineer and All-around Geek" # Your header subtitle
   home_image = "/images/avatar.png"          # Path to header image starting from the static directory
