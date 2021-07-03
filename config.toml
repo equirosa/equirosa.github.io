@@ -1,12 +1,5 @@
-baseURL = "https://eduardoquiros.xyz"
-title = "Eduardo's Notes"
-languageCode = "en-us"
-theme = "devise"
-relativeURLs = true
-enableEmoji = true
-googleAnalytics = ""
-enableRobotsTXT = true
-copyright = "&copy; 2021, Eduardo Quirós"
+baseURL = "https://eduardoquiros.com"
+theme = "anatole"
 
 # Main menu items
 [menu]
@@ -23,12 +16,6 @@ copyright = "&copy; 2021, Eduardo Quirós"
     url = "/posts/"
     weight = -100
   [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    title = "Categories"
-    url = "/categories/"
-    weight = -90
-  [[menu.main]]
   identifier = "uses"
   name = "Uses"
   title = "Uses"
@@ -37,15 +24,26 @@ copyright = "&copy; 2021, Eduardo Quirós"
 
 # Configuration Features
 [params]
+  author = "Eduardo"
+  copyright = "&copy; 2021, Eduardo Quirós. All content is CC-BY-SA 4.0"
+  title = "Eduardo Quirós"
   description = "Eduardo's Notes and Ramblings"
-  header_title = "Eduardo Quirós"                 # Your header title
-  header_subtitle = "Software Engineer and All-around Geek" # Your header subtitle
-  home_image = "/images/avatar.png"          # Path to header image starting from the static directory
-  recent_posts = 5                           # Max amount of recent posts to show
-  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
-  [[params.social]]
-    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
-    href = "http://github.com/equirosa"      # Link to associate with icon (http://, https://, mailto:)
-  [[params.social]]
-    fa_icon = "fab fa-linkedin-in fa-1x"
-    href = "https://linkedin.com/in/eduardo-quiros"
+  fullPostContent = true
+  profilePicture = "/images/avatar.png"          # Path to header image starting from the static directory
+  pygmentsCodeFences = true
+  pygmentsUseClasses = true
+  mainSections = []   # Main sections to include in recent posts
+  [[params.socialIcons]]
+    icon = "fab fa-github"          # Font Awesome icon class
+	title = "GitHub"
+    url = "http://github.com/equirosa"      # Link to associate with icon (http://, https://, mailto:)
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin-in"
+	title = "LinkedIn"
+    url = "https://linkedin.com/in/eduardo-quiros"
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
