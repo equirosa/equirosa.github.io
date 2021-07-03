@@ -34,7 +34,6 @@ theme = "anatole"
   copyright = "&copy; 2021, Eduardo Quirós. All content is CC-BY-SA 4.0"
   title = "Eduardo Quirós"
   description = "Eduardo's Notes and Ramblings"
-  fullPostContent = true
   profilePicture = "/images/avatar.png"          # Path to header image starting from the static directory
   pygmentsCodeFences = true
   pygmentsUseClasses = true
