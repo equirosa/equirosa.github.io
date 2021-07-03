@@ -1,7 +1,11 @@
 ---
 title: "You Should Use Git"
 date: 2020-06-30T10:40:52-06:00
-draft: false
+tags:
+  - git
+  - source control
+  - versioning
+  - simplicity
 ---
 
 ## The Problem

@@ -2,6 +2,9 @@
 title: "Intro"
 date: 2020-06-21T04:43:36-06:00
 draft: false
+tags:
+  - hugo
+  - markdown
 ---
 
 This is is the very first post in my new blog, this time I'll be using
