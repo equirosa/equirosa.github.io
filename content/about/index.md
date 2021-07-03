@@ -3,8 +3,6 @@ title: A Little About Me...
 draft: false
 ---
 
-# A Little About Me
-
 ## Who am I?
 
 Hi there! My name is Eduardo Quirós, and I'm a software engineering student from

@@ -4,8 +4,6 @@ date: 2020-06-21T04:43:36-06:00
 draft: false
 ---
 
-# Intro
-
 This is is the very first post in my new blog, this time I'll be using
 [Hugo](https://gohugo.io) to generate it instead of [WordPress](https://wordpress.org).
 

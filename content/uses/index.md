@@ -1,6 +1,5 @@
 ---
 title: "Uses"
-date: 2020-07-06T23:42:48-06:00
 draft: false
 ---
 This is just an index of the hardware I'm using,
