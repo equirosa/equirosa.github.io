@@ -4,6 +4,12 @@ theme = "anatole"
 # Main menu items
 [menu]
   [[menu.main]]
+	identifier = "home"
+	name = "Home"
+	title = "Home"
+	url = "/"
+	weight = -120
+  [[menu.main]]
     identifier = "about"
     name = "About"
     title = "About"
