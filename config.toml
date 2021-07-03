@@ -37,7 +37,8 @@ theme = "anatole"
   profilePicture = "/images/avatar.png"          # Path to header image starting from the static directory
   pygmentsCodeFences = true
   pygmentsUseClasses = true
-  mainSections = []   # Main sections to include in recent posts
+  mainSections = ["posts"]   # Main sections to include in recent posts
+
   [[params.socialIcons]]
     icon = "fab fa-github"          # Font Awesome icon class
 	title = "GitHub"
