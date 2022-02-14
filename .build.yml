@@ -5,11 +5,9 @@ environment:
   site: eduardo_quiros.srht.site
   dir: blog
 tasks:
-- build: |
-    cd $dir
-    hugo --minify
 - package: |
     cd $dir
+    hugo --minify
     tar -C public -cvz . > ../site.tar.gz
 - upload: |
     acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
