@@ -35,7 +35,7 @@ For numerical systems that share a common base (base16 is, technically, base2^4)
 conversion is actually **simpler** than it would be using a different system
 with an incongruous base as a middleground. To prove this, let's do a little math...
 
-### The Smart, But "Uncomfotable" Way
+### The Smart, But "Uncomfortable" Way
 
 For a base16 number, each of its figures can be represented as 4 figures in binary.
 Therefore, if the number were to be `52` in base16, then the `5` would be `0101`
