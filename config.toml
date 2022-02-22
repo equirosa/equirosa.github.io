@@ -31,7 +31,7 @@ theme = "anatole"
 # Configuration Features
 [params]
   author = "Eduardo"
-  copyright = "&copy; 2021, Eduardo Quirós. All content is CC-BY-SA 4.0"
+  copyright = "&copy; 2021, Eduardo Quirós. All content is licensed under the CC-BY-SA 4.0"
   title = "Eduardo Quirós"
   description = "Eduardo's Notes and Ramblings"
   profilePicture = "/images/avatar.png"          # Path to header image starting from the static directory
