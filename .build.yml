@@ -1,4 +1,4 @@
-image: alpine/latest
+image: nixos/unstable
 packages: [ zola ]
 oauth: pages.sr.ht/PAGES:RW
 environment:
