@@ -1,6 +1,5 @@
 +++
 title = "Eduardo's Web Blog"
-default_language = "en"
 +++
 
 This is my blog, on here I post various articles regarding thoughts I have occasionally,
