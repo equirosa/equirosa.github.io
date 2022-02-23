@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.eduardoquiros.com"
+base_url = "https://eduardo_quiros.srht.site"
 title = "Eduardo's notes"
 description = "Eduardo's collection of posts talking about tech, games, and life in general."
 theme = "simplify"
