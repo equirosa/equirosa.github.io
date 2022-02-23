@@ -1,5 +1,5 @@
-image: nixos/unstable
-packages: [ nixos.zola ]
+image: alpine/edge
+packages: [ zola ]
 oauth: pages.sr.ht/PAGES:RW
 environment:
   site: eduardo_quiros.srht.site
