@@ -2,7 +2,7 @@ image: alpine/edge
 packages: [ zola ]
 oauth: pages.sr.ht/PAGES:RW
 environment:
-  site: eduardo_quiros.srht.site
+  site: eduardoquiros.com
   dir: blog
 tasks:
 - package: |
