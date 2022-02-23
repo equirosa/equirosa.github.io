@@ -1,12 +1,13 @@
----
-title: "You Should Use Git"
-date: 2020-06-30T10:40:52-06:00
-tags:
-  - git
-  - source control
-  - versioning
-  - simplicity
----
++++
+title = "You Should Use Git"
+[taxonomies]
+tags = [
+"git",
+"simplicity",
+"source control",
+"versioning"
+]
++++
 
 ## The Problem
 
@@ -32,10 +33,11 @@ This is where a VCS comes in, long gone are the days of needing a folder
 containing (I'm using Java as an example language because that's what my
 university uses as an introductory language)
 
-```sh
-project.java
-project1.java
-project2.java
+```
+project_directory
+|-projectv1.java
+|-projectv2.java
+|-projectv3.java
 ```
 
 littered all over your project directory.

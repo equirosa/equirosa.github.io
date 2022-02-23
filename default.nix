@@ -3,5 +3,5 @@ mkShell {
   nativeBuildInputs = [
     bashInteractive
   ];
-  buildInputs = [ hugo ];
+  buildInputs = [ zola ];
 }

@@ -1,5 +1,5 @@
 image: alpine/latest
-packages: [ hugo ]
+packages: [ zola ]
 oauth: pages.sr.ht/PAGES:RW
 environment:
   site: eduardo_quiros.srht.site
@@ -7,7 +7,7 @@ environment:
 tasks:
 - package: |
     cd $dir
-    hugo --minify
+    zola build
     tar -C public -cvz . > ../site.tar.gz
 - upload: |
     acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

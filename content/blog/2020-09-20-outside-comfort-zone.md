@@ -1,10 +1,11 @@
----
-title: "Outside Your Comfort Zone"
-date: 2020-09-20T23:33:39
-tags:
-  - comfort
-  - simplicity
----
++++
+title = "Outside Your Comfort Zone"
+[taxonomies]
+tags = [
+"comfort",
+"simplicity"
+]
++++
 
 ## Intro
 
