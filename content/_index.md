@@ -1,5 +1,5 @@
 +++
-title = "Eduardo's Web Blog"
+title = "Eduardo's Blog"
 +++
 
 This is my blog, on here I post various articles regarding thoughts I have occasionally,
