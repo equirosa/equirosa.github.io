@@ -23,7 +23,7 @@ lack of comfort with such a tool get to you.
 This one seems like the obvious argument to make for a tool with "version control"
 in its name, but I've noticed that people who don't use a VCS often try to make
 up for this lack of control by having **multiple copies of the same file**.
-This isn't particularly wrong per se, and it initially seems to be a clever workaround.
+This isn't particularly wrong per sé, and it initially seems to be a clever workaround.
 However, most projects at my university often last between 3 an 15 weeks.
 Would you honestly trust yourself to handle multiple versions of various projects
 effectively?
