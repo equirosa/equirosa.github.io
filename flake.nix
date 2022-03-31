@@ -23,6 +23,18 @@
         {
           buildInputs = with pkgs; [
             zola
+            (writeShellApplication {
+              name = "new";
+              text = ''
+                DATE="$(date -u +"%Y-%m-%d")"
+                TITLE="''${1//\ /-}"
+                FILENAME="''${DATE}-''${TITLE}.md"
+                case $PWD in
+                *blog ) "''${EDITOR:-nvim}" "''${FILENAME}" ;;
+                *) echo "no" ;;
+                esac
+              '';
+            })
           ];
         }
     );
