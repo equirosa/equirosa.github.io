@@ -1,42 +1,20 @@
 {
-  description = "Kiri's Blog";
+  description = "My blog repo!";
 
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-  };
+  inputs.devshell.url = "github:numtide/devshell";
+  inputs.flake-utils.url = "github:numtide/flake-utils";
 
-  outputs = {
-    self,
-    nixpkgs,
-  }: let
-    supportedSystems = ["x86_64-linux"];
+  outputs = { self, flake-utils, devshell, nixpkgs }:
+    flake-utils.lib.eachDefaultSystem (system: {
+      devShell =
+        let pkgs = import nixpkgs {
+          inherit system;
 
-    forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
-
-    nixpkgsFor = forAllSystems (system: import nixpkgs {inherit system;});
-  in {
-    devShell = forAllSystems (
-      system: let
-        pkgs = nixpkgsFor.${system};
-      in
-        pkgs.mkShell
-        {
-          buildInputs = with pkgs; [
-            zola
-            (writeShellApplication {
-              name = "new";
-              text = ''
-                DATE="$(date -u +"%Y-%m-%d")"
-                TITLE="''${1//\ /-}"
-                FILENAME="''${DATE}-''${TITLE}.md"
-                case $PWD in
-                *blog ) "''${EDITOR:-nvim}" "''${FILENAME}" ;;
-                *) echo "no" ;;
-                esac
-              '';
-            })
-          ];
-        }
-    );
-  };
+          overlays = [ devshell.overlay ];
+        };
+        in
+        pkgs.devshell.mkShell {
+          imports = [ (pkgs.devshell.importTOML ./devshell.toml) ];
+        };
+    });
 }
