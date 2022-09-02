@@ -73,7 +73,7 @@ fn is_leap_year(year_input: u32) -> bool {
 }
 ```
 
-As you can see, there are quite a few loops that exist only to nag the user into providing a correct input.
+As you can see, there are quite a few loops that exist only to nag the user into providing a correct input. This, in my eyes, becomes an incredibly annoying way of using a program.
 
 Input validation in this style might work well when it comes to using graphically presented forms, where the person can re-evaluate the information they introduced; it is not so for interactive inputs in a one-shot CLI program since it's incredibly uncomfortable to "go back" and edit different inputs you've previously provided.
 
