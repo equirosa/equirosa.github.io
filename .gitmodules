@@ -1,6 +1,0 @@
-[submodule "themes/simplify"]
-	path = themes/simplify
-	url = https://github.com/tarunjana/simplify.git
-[submodule "themes/terminimal"]
-	path = themes/terminimal
-	url = https://github.com/pawroman/zola-theme-terminimal.git
