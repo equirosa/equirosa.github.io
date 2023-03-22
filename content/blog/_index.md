@@ -1,7 +1,6 @@
 +++
-title = "Blog Articles"
-description = "Chronological log of my blogposts."
+title = "List of blog posts"
 sort_by = "date"
-[extra]
-in_menu = true
+template = "index.html"
+page_template = "page.html"
 +++

@@ -1,0 +1,47 @@
+# The URL the site will be built for
+base_url = "https://eduardoquiros.com"
+title = "Eduardo's notes"
+description = "Eduardo's collection of posts talking about tech, games, and life in general."
+theme = "terminimal"
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# Taxonomy settings
+taxonomies = [
+    # { name = "categories", feed = true },
+    { name = "tags", feed = true }
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+
+[extra]
+# Put all your custom variables here
+page_titles = "combined"
+background_color = "dark"
+logo_text = "Eduardo's Space"
+author = "Eduardo Quirós"
+
+menu_items = [
+    # each of these is optional, name and url are required
+    # $BASE_URL is going to be substituted by base_url from configuration
+    {name = "blog", url = "$BASE_URL/blog"},
+    
+    # tags should only be enabled if you have "tags" taxonomy
+    # see documentation below for more details
+    {name = "tags", url = "$BASE_URL/tags"},
+    {name = "uses", url = "$BASE_URL/uses"},
+    {name = "about me", url = "$BASE_URL/about"},
+    
+    # set newtab to true to make the link open in new tab
+    {name = "github", url = "https://github.com/equirosa", newtab = true},
+]
+enable_post_view_navigation = true
